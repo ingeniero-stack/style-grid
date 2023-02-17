@@ -1,0 +1,225 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: rubik;
+    color: whitesmoke;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+        "authorTime     work        play    study"    
+        "authorTime   exercise    social  selfcare"    
+            ;
+}
+
+.publisherTime{
+    margin-left: 30px;
+    color: white;
+    grid-area: authorTime;
+}
+
+.publisher{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 7px;
+    width: 70%;
+    height: 18rem;
+}
+
+.imgPublisher{
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+.Jeremy-Title{
+    margin-left: 25px;
+    font-size: 0.8rem;
+    color: hsl(236, 100%, 87%);
+}
+
+.Jeremy-name{
+    margin-left: 26px;
+    font-size: 2rem;
+    margin-top: 10px;
+    padding-top: 1px;
+}
+
+.time{
+    
+    width: 71%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    height: 10rem;
+    
+}
+
+#timing{
+    margin-left: 25px;
+    padding-top: 25px;
+    color:hsl(236, 100%, 87%);
+}
+
+#timing.weekly{
+    color: white;
+}
+
+.work{
+    grid-area: work;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.workImg{   
+    background-color: hsl(15, 100%, 70%);
+    width: 159px;
+    display: flex;
+    justify-content: end;
+    border-radius: 11px;
+}
+.workContent{
+    position: absolute;
+    bottom: 385px;
+    height: 150px;
+    background-color: hsl(235, 46%, 20%);
+    width: 160px;
+    border-radius: 10px;
+    
+}
+
+.play{
+    grid-area: play;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.playImg{
+    background-color: hsl(195, 74%, 62%);
+    width: 160px;
+    display: flex;
+    justify-content: end;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.playContent{
+    background-color: hsl(235, 46%, 20%);
+    position: absolute;
+    bottom: 380px;
+    height: 150px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+
+.study{
+    grid-area: study;
+    display: flex;
+    flex-direction: column;
+}
+
+.studyImg{
+    width: 160px;
+    display: flex;
+    justify-content: end;
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.studyContent{
+    background-color: hsl(235, 46%, 20%);
+    position: absolute;
+    bottom: 380px;
+    height: 150px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+
+.exercise{
+    grid-area: exercise;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+.exerciseImg{
+    width: 160px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    background-color: hsl(145, 58%, 55%);
+}
+
+.exerciseContent{
+    background-color: hsl(235, 46%, 20%);
+    position: absolute;
+    bottom: 155px;
+    height: 150px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.social{
+    grid-area: social;
+    display: flex;
+    flex-direction: column;
+    margin-top: ;
+}
+.socialImg{
+    width: 160px;
+    display: flex;
+    justify-content: end;
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.socialContent{
+    background-color: hsl(235, 46%, 20%);
+    position: absolute;
+    bottom: 155px;
+    height: 150px;
+    width: 160px;
+    border-radius: 10px;
+    
+}
+.selfcare{
+    grid-area: selfcare;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    
+}
+.selfcareImg{
+    width: 160px;
+    display: flex;
+    justify-content: end;
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.selfcareContent{
+    background-color: hsl(235, 46%, 20%);
+    position: absolute;
+    bottom: 155px;
+    height: 150px;
+    width: 160px;
+    border-radius: 10px;}
+
+
